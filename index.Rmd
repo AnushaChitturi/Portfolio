@@ -3,7 +3,11 @@ title: "Portfolio"
 author: "Anusha Chitturi"
 date: "10/17/2021"
 output: 
-  rmdformats::material
+  html_document:
+    theme: cerulean
+    toc: true
+    toc_depth: 3
+    toc_float: true
 ---
 
 ```{r setup, include=FALSE}
