@@ -1,0 +1,63 @@
+---
+title: "Portfolio"
+author: "Anusha Chitturi"
+date: "10/17/2021"
+output: 
+  rmdformats::material
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+# Introduction
+
+This portfolio has been created as part of the coursework for Spatial Analysis (VIS 2128). These five maps have been chosen to be included in the portfolio to demonstrate a variety of skills. Each of these maps are, therefore, not related to each other and don't intend to tell a coherent story. The data for each of these maps have been downloaded from multiple data sources, including the city open data portals, GTFS data from transit agencies, Open Street Maps, and US Census Data.
+
+
+# Chicago Raster Map
+This map georeferences an old 19th century map of Chicago and overlays the current Chicago L transit lines on the map. This map demonstrates the following skills: 
+
+* Georeferencing a raster image
+
+[![](thumbnails/Chicago Map.png)](https://anushachitturi.github.io/Portfolio/fullsize/Chicago_Full.pdf){target="_blank"}
+
+
+# Interactive Map
+This map presents the percentage of trips within 10 mins made by walk in Middlesex county. This interactive map demonstrates the following skills: 
+
+* Displaying data on an interactive map
+* Aggregating point data to a layer of polygons
+
+[![](thumbnails/Interactive_Map.png)](https://anushachitturi.github.io/Portfolio/fullsize/Interactive_Map.html){target="_blank"}
+
+
+# Accessibility Map
+This map demonstrates spatial variation in accessibility to schools in San Francisco city. It demonstrates the following skills: 
+
+* Displaying multiple vector layers on the same map
+* Calculating and displaying relationships among point and polygon layers based on distance
+* Aggregating point data to a layer of polygons
+
+[![](thumbnails/Accessibility_SF.png)](https://anushachitturi.github.io/Portfolio/fullsize/Accessibility_SF.html){target="_blank"}
+
+
+# Spatial Relationships Map
+This map shows density of public artworks in Cambridge, MA. It demonstrates the following skills:
+
+* Displaying multiple vector layers on the same map
+* Calculating and displaying accessibility, based on travel time
+
+[![](thumbnails/Cambridge_Public Art.png)](https://anushachitturi.github.io/Portfolio/fullsize/Public Art_Cambridge.html){target="_blank"}
+
+# Raster Map
+This map shows spatial variation in accessibility to the transit stops in San Francisco. It demonstrates the following skills:
+
+* Displaying multiple vector layers on the same map
+* Calculating and displaying accessibility, based on travel time
+* Displaying raster data on a map
+* Converting between raster layers and vector layers
+
+[![](thumbnails/Raster Map_SF.png)](https://anushachitturi.github.io/Portfolio/fullsize/Raster Map_SF.html){target="_blank"}
